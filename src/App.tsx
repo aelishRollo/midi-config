@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import AssignActions from './components/AssignActions'
+import MusicalKeyboardButton from './components/MusicalKeyboardButton';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
+        <MusicalKeyboardButton />
         <AssignActions />
           Learn React
         </a>
