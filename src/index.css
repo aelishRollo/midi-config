@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.midi-input-container {
+  border: 1px solid;
+  margin: 20px;
+  padding: 20px;
+}
+
+pre {
+  font-size: 10px;
+  text-align: left;
+}
