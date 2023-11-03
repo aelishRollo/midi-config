@@ -61,9 +61,21 @@ export const MidiInput = (props: MidiInputProps) => {
   return (
     <div className='midi-input-container'>
       <h2>{props.midiInputDevice.name}</h2>
-      <pre>
-        {JSON.stringify(state, null, 2)}
-      </pre>
+
+      <div>
+        Config:
+        <pre>
+          {JSON.stringify(props.midiInputConfig, null, 2)}
+        </pre>
+      </div>
+
+      <div>
+        State:
+        <pre>
+          {JSON.stringify(state, null, 2)}
+        </pre>
+      </div>
+
       <div>
         <button onClick={() => handleClick(ConfigButton.MUSICAL_KEYBOARD)}>
           Musical Keyboard
